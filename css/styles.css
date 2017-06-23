@@ -229,9 +229,6 @@ figure {
     list-style-type: none;
   }
 
-.movie-poster {
-  display: none;
-}
 
   .site-nav-item {
     float: none;
@@ -281,6 +278,11 @@ figure {
   .movie-backdrop {
     display: block;
   }
+
+.movie-poster {
+  display: none;
+}
+
 
   /* FOOTER styles */
   .site-footer {
