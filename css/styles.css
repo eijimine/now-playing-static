@@ -229,6 +229,9 @@ figure {
     list-style-type: none;
   }
 
+.movie-poster {
+  display: none;
+}
 
   .site-nav-item {
     float: none;
