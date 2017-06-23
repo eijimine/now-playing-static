@@ -278,4 +278,167 @@ figure {
   .movie-backdrop {
     display: block;
   }
+
+  /* FOOTER styles */
+  .site-footer {
+    text-align: center;
+  }
+
+  .footer-nav {
+    margin: 0.6em;
+  margin-left: 6.8em;
+  margin-right: -2em;
+  float: left;
+  padding: 1em;}
+
+  .footer-nav-item {
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+
+  /*
+    The :last-child pseudo-selector lets you select only the last element
+      within a containing element. Similarly, there's a :first-child pseudo-selector
+      to select the first child of a containing element.
+  */
+  .footer-nav-item:last-child {
+    margin-right: 0;
+  }
+
+
+  .about {
+    float: right;
+    width: 40%;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 1em;
+  }
+
+  .about > p {
+    margin: 0;
+  }
+}
+
+
+/*Dev for full screen*/
+
+@media ( min-width: 992px ) {
+  .movie-overview {
+    display: inline;
+  }
+  .site-logo {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    z-index: 100;
+  }
+
+  .site-nav {
+    position: fixed;
+    padding-top: 4em;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 5.5em;
+    z-index: 100;
+    background-color: lightgrey;
+}
+  .site-nav-list,
+  .footer-nav-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+
+  .site-nav-item {
+    float: none;
+    width: 9em;
+    height: 60px;
+    padding: 1.3em;
+    font-family: "Montserrat", "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.6em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+  .site-nav-item > .fa {
+    font-size: 1.75rem;
+  }
+
+  .site-nav-item:hover {
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .site-nav-item-label {
+    display: block;
+    margin-top: 0.5em;
+  }
+
+  .site-logo {
+    position: fixed;
+    top: 0.4rem;
+    left: 0.5rem;
+    width: 70px;
+    height: 80px;
+    margin: 0;
+    z-index: 200;
+  }
+
+
+
+  /* MOVIE styles */
+  .movie {
+      position: relative;
+      margin-left: 5em;
+    }
+
+  .movie-poster,
+  .movie-backdrop {
+    display: block;
+  }
+
+  /* FOOTER styles */
+  .site-footer {
+    text-align: center;
+  }
+
+  .footer-nav {
+    margin: 0.6em;
+  margin-left: 6.8em;
+  margin-right: -2em;
+  float: left;
+  padding: 1em;}
+
+  .footer-nav-item {
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+
+  /*
+    The :last-child pseudo-selector lets you select only the last element
+      within a containing element. Similarly, there's a :first-child pseudo-selector
+      to select the first child of a containing element.
+  */
+  .footer-nav-item:last-child {
+    margin-right: 0;
+  }
+
+
+  .about {
+    float: right;
+    width: 40%;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 1em;
+  }
+
+  .about > p {
+    margin: 0;
+  }
 }
