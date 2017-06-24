@@ -332,6 +332,11 @@ figure {
     display: inline;
   }
 
+  article:nth-child(1) > .movie-details {
+  width: 100%;
+  }
+
+
   article:nth-child(n+2) div .movie-overview {
     display: none;
   }
@@ -343,17 +348,18 @@ figure {
       margin-left: 5em;
     }
 
-.movie-poster,
-.movie-backdrop {
-    display: inline;
-  }
-
 article:nth-child(1) figure > img:nth-child(1) {
   display: none;
 }
 
 article:nth-child(n+2) figure > img:nth-child(2) {
   display: none;
+}
+
+.movie-poster,
+.movie-details {
+  display: inline;
+  width: 33.3%;
 }
 
   /* FOOTER styles */
