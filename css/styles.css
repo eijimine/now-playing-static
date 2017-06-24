@@ -332,6 +332,11 @@ figure {
     display: inline;
   }
 
+  article:nth-child(n+2) div .movie-overview {
+    display: none;
+  }
+
+
   /* MOVIE styles */
   .movie {
       position: relative;
