@@ -347,7 +347,9 @@ article:nth-child(1) figure > img:nth-child(1) {
   display: none;
 }
 
-
+article:nth-child(n+2) figure > img:nth-child(2) {
+  display: none;
+}
 
   /* FOOTER styles */
   .site-footer {
