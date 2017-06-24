@@ -331,6 +331,48 @@ figure {
   .movie-overview {
     display: inline;
   }
+
+  /* MOVIE styles */
+  .movie {
+      position: relative;
+      margin-left: 5em;
+    }
+
+/*article:nth-child(1) figure:first-of-type {
+  display: none;
+}
+
+body > main > article:nth-child(1) > figure > img.movie-backdrop {
+  display: inline;
+}*/
+
+
+  .movie-poster {
+    display: none;
+  }
+
+  .movie-backdrop {
+    display: none;
+  }
+
+  /* FOOTER styles */
+  .site-footer {
+    text-align: center;
+  }
+
+  .footer-nav {
+    margin: 0.6em;
+  margin-left: 6.8em;
+  margin-right: -2em;
+  float: left;
+  padding: 1em;}
+
+  .footer-nav-item {
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+
+
   .site-logo {
     position: fixed;
     top: 1rem;
@@ -397,33 +439,6 @@ figure {
 
 
 
-  /* MOVIE styles */
-  .movie {
-      position: relative;
-      margin-left: 5em;
-    }
-
-  .movie-poster,
-  .movie-backdrop {
-    display: block;
-  }
-
-  /* FOOTER styles */
-  .site-footer {
-    text-align: center;
-  }
-
-  .footer-nav {
-    margin: 0.6em;
-  margin-left: 6.8em;
-  margin-right: -2em;
-  float: left;
-  padding: 1em;}
-
-  .footer-nav-item {
-    display: inline-block;
-    margin-right: 0.5em;
-  }
 
   /*
     The :last-child pseudo-selector lets you select only the last element
