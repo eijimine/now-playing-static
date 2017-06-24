@@ -338,22 +338,16 @@ figure {
       margin-left: 5em;
     }
 
-/*article:nth-child(1) figure:first-of-type {
+.movie-poster,
+.movie-backdrop {
+    display: inline;
+  }
+
+article:nth-child(1) figure > img:nth-child(1) {
   display: none;
 }
 
-body > main > article:nth-child(1) > figure > img.movie-backdrop {
-  display: inline;
-}*/
 
-
-  .movie-poster {
-    display: none;
-  }
-
-  .movie-backdrop {
-    display: none;
-  }
 
   /* FOOTER styles */
   .site-footer {
