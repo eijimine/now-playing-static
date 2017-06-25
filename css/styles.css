@@ -237,7 +237,7 @@ figure {
     padding: 1.3em;
     font-family: "Montserrat", "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 0.6em;
-    text-align: center;
+    text-align: center;it
     text-transform: uppercase;
 }
 
@@ -328,26 +328,56 @@ figure {
 /*Dev for full screen*/
 
 @media ( min-width: 992px ) {
-  .movie-overview {
+
+  article:nth-child(n+2) div .movie-overview,
+  article:nth-child(n+2) figure .movie-backdrop {
+    display: none;
+  }
+
+  article:nth-child(n+2) figure .movie-poster {
     display: inline;
   }
+
+  article:nth-child(1) figure > img:nth-child(1) {
+    display: none;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  --------------------------------------------------Starting new-----*/
+
+/*
+main {
+  margin-left: 8px;
+}
+
 
   article:nth-child(1) > .movie-details {
   width: 100%;
   }
 
-
   article:nth-child(n+2) div .movie-overview {
     display: none;
-  }
+  }*/
+
 
 
   /* MOVIE styles */
-  .movie {
-      position: relative;
-      margin-left: 5em;
-    }
-
+/*
 article:nth-child(1) figure > img:nth-child(1) {
   display: none;
 }
@@ -356,14 +386,28 @@ article:nth-child(n+2) figure > img:nth-child(2) {
   display: none;
 }
 
-.movie-poster,
-.movie-details {
+.movie {
   display: inline;
-  width: 33.3%;
-}
+  width: 33.33%;
+}*/
+
+
+
+/*.movie-poster,
+.movie-details {
+    display: inline;
+    width: 33.33%;
+    padding: 0;
+    border: 0;
+  }*/
+
+
+
+
 
   /* FOOTER styles */
-  .site-footer {
+
+  /*.site-footer {
     text-align: center;
   }
 
@@ -444,14 +488,6 @@ article:nth-child(n+2) figure > img:nth-child(2) {
     z-index: 200;
   }
 
-
-
-
-  /*
-    The :last-child pseudo-selector lets you select only the last element
-      within a containing element. Similarly, there's a :first-child pseudo-selector
-      to select the first child of a containing element.
-  */
   .footer-nav-item:last-child {
     margin-right: 0;
   }
@@ -468,4 +504,4 @@ article:nth-child(n+2) figure > img:nth-child(2) {
   .about > p {
     margin: 0;
   }
-}
+}*/
