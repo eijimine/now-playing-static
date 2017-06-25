@@ -329,6 +329,12 @@ figure {
 
 @media ( min-width: 992px ) {
 
+main {
+  margin-left: 88px;
+}
+
+
+
   article:nth-child(n+2) div .movie-overview,
   article:nth-child(n+2) figure .movie-backdrop {
     display: none;
@@ -345,16 +351,20 @@ figure {
 /*Poster Sizing*/
 
 .movie-backdrop {
-  display: block;
+  display: inline-block;
 }
+
+.movie {
+    position: relative;
+    margin-left: 0;
+  }
 
 .movie:nth-child(n+2) {
     position: relative;
-    width: 33.33%;
+    width: 33.36%;
     display: inline-block;
     padding: 0;
-    margin: 0;
-    float: left;
+    margin: -2px;
 }
 
 
